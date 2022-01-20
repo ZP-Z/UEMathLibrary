@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.16)
+set(CMAKE_CXX_STANDARD 17)
+
+# project name
+project(UEMath)
+include_directories("source")
+
+FILE(GLOB_RECURSE HEADERS "source/*.h")
+FILE(GLOB_RECURSE SOURCES "source/*.cpp")
+
+set(MATH_HEADER ${HEADERS})
+set(MATH_SOURCE ${SOURCES})
+
+source_group(TREE ${CMAKE_SOURCE_DIR} FILES ${MATH_HEADER})
+source_group(TREE ${CMAKE_SOURCE_DIR} FILES ${MATH_SOURCE})
+
+add_executable(${PROJECT_NAME} ${MATH_HEADER} ${MATH_SOURCE})
