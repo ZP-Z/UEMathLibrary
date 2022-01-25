@@ -1,8 +1,7 @@
 // main.cpp for test
 
 #include <iostream>
-#include "Containers/Array.h"
-#include "Math/Quat.h"
+#include "Core.h"
 
 using namespace UEMath;
 int main()

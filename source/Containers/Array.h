@@ -40,6 +40,11 @@ namespace UEMath
 			std::vector<T>::push_back(Elem);
 		}
 
+		FORCEINLINE void PushBack(const T& Elem)
+		{
+			std::vector<T>::push_back(Elem);
+		}
+
 		FORCEINLINE void Empty(int32 Slack = 0)
 		{
 			std::vector<T>::resize(0);
