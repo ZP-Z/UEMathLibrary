@@ -1,6 +1,7 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 #pragma once
+#include "Math/MathHelper.h"
 
 #include "Math/UnrealMathUtility.h"
 //#include "Math/Color.h"
@@ -34,6 +35,7 @@
 #include "Math/RotationAboutPointMatrix.h"
 //#include "Math/ScaleRotationTranslationMatrix.h"
 #include "Math/RotationMatrix.h"
+#include "Math/Transform.h"
 #include "Math/Quat.h"
 //#include "Math/PerspectiveMatrix.h"
 //#include "Math/OrthoMatrix.h"
