@@ -4,7 +4,7 @@
 
 //#include "CoreTypes.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	// Generic axis enum (mirrored for property use in Object.h)
 	namespace EAxis

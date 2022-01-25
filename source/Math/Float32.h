@@ -3,9 +3,9 @@
 #pragma once
 
 //#include "CoreTypes.h"
-#include "Misc/CoreMiscDefines.h"
+#include "CoreTypes.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
 * 32 bit float components

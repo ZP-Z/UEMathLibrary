@@ -2,7 +2,7 @@
 
 #pragma once
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
 	 * Traits class which tests if a type is POD.

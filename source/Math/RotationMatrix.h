@@ -8,7 +8,7 @@
 #include "Math/Matrix.h"
 #include "Math/RotationTranslationMatrix.h"
 
-namespace UE4Math
+namespace UEMath
 {
 
 	/** Rotation matrix no translation */

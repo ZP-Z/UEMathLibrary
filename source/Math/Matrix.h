@@ -12,7 +12,7 @@
 #include "Math/Rotator.h"
 #include "Math/Axis.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
  * 4x4 matrix of floating point values.

@@ -7,7 +7,7 @@
 #include "Math/Vector2D.h"
 #include "Math/Float16.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
 	 * Structure for two dimensional vectors with half floating point precision.

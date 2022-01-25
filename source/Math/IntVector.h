@@ -8,7 +8,7 @@
 //#include "Containers/UnrealString.h"
 //#include "Serialization/StructuredArchive.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
  * Structure for integer vectors in 3-d space.

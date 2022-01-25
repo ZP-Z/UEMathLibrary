@@ -8,7 +8,7 @@
 #include "Math/Matrix.h"
 #include "Math/Quat.h"
 
-namespace UE4Math
+namespace UEMath
 {
 
 	/** Rotation and translation matrix using quaternion rotation */

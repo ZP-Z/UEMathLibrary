@@ -2,7 +2,7 @@
 
 #pragma once
 
-namespace UE4Math
+namespace UEMath
 {
 	struct FGenericPlatformMath;
 	struct FMath;

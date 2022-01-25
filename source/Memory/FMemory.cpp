@@ -1,7 +1,7 @@
 #include "FMemory.h"
 #include "Math/UnrealMathUtility.h"
 
-//void UE4Math::FMemory::MemswapGreaterThan8(void* Ptr1, void* Ptr2, size_t Size)
+//void UEMath::FMemory::MemswapGreaterThan8(void* Ptr1, void* Ptr2, size_t Size)
 //{
 //	union PtrUnion
 //	{

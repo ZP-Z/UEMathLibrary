@@ -8,7 +8,7 @@
 #include "Math/Float32.h"
 
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
 * 16 bit float components and conversion

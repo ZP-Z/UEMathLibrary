@@ -10,7 +10,7 @@
 #include "Math/Vector.h"
 #include "Math/VectorRegister.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
  * Implements a container for rotation information.

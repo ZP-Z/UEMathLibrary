@@ -8,7 +8,7 @@
 //#include "Containers/UnrealString.h"
 #include "Math/Vector.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
 	 * Implements an axis-aligned box.

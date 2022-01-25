@@ -1,11 +1,11 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 #pragma once
-#include "Misc/CoreMiscDefines.h"
+#include "CoreTypes.h"
 #include "Math/UnrealMathUtility.h"
 
 //#include "HAL/UnrealMemory.h"
-namespace UE4Math
+namespace UEMath
 {
 
 	/*=============================================================================

@@ -7,7 +7,7 @@
 #include "Math/VectorRegister.h"
 #include "Math/Matrix.h"
 
-namespace UE4Math
+namespace UEMath
 {
 
 	/** Combined rotation and translation matrix */

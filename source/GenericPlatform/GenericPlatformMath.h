@@ -14,7 +14,7 @@
 //#include "Containers/ContainersFwd.h"
 //#include "HAL/PlatformCrt.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
  * Generic implementation for most platforms

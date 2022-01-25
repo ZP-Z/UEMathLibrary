@@ -8,7 +8,7 @@
 #include "Math/Vector4.h"
 //#include "UObject/ObjectVersion.h"
 
-namespace UE4Math
+namespace UEMath
 {
 
 	/**

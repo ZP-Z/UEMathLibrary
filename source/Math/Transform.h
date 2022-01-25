@@ -5,7 +5,7 @@
 #include "Math/Vector.h"
 #include "Math/Quat.h"
 
-namespace UE4Math
+namespace UEMath
 {
 
 struct FTransform

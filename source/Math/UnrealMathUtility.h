@@ -6,12 +6,12 @@
 //#include "Misc/AssertionMacros.h"
 //#include "HAL/PlatformMath.h"
 #include "Memory/FMemory.h"
-#include "Misc/CoreMiscDefines.h"
+#include "CoreTypes.h"
 #include "Windows/WindowsPlatformMath.h"
 #include <vector>
 #include <string>
 
-namespace UE4Math
+namespace UEMath
 {
 
 	//#define IMPLEMENT_ASSIGNMENT_OPERATOR_MANUALLY
@@ -24,8 +24,6 @@ namespace UE4Math
 #define ENABLE_NAN_DIAGNOSTIC 0
 #endif
 #endif
-
-#define FORCEINLINE											__forceinline
 
 /*-----------------------------------------------------------------------------
 	Definitions.

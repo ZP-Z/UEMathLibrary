@@ -11,7 +11,7 @@
 #include "Math/Vector2D.h"
 #include "Math/Vector.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
 	 * A 4D homogeneous vector, 4x1 FLOATs, 16-byte aligned.

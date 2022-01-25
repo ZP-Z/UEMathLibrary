@@ -7,7 +7,7 @@
 #include "Math/Matrix.h"
 #include "Math/RotationTranslationMatrix.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/** Rotates about an Origin point. */
 	class FRotationAboutPointMatrix

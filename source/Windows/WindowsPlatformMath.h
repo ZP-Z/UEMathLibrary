@@ -16,7 +16,7 @@
 #include "Math/UnrealPlatformMathSSE.h"
 #endif
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
 	* Windows implementation of the Math OS functions

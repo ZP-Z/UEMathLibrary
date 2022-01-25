@@ -6,7 +6,7 @@
 #include <stdlib.h> 
 #include <malloc.h>.
 
-namespace UE4Math
+namespace UEMath
 {
 
 	/*-----------------------------------------------------------------------------
@@ -161,7 +161,10 @@ namespace UE4Math
 
 		//static void* Malloc(size_t Count, uint32 Alignment = DEFAULT_ALIGNMENT);
 		//static void* Realloc(void* Original, size_t Count, uint32 Alignment = DEFAULT_ALIGNMENT);
-		//static void Free(void* Original);
+		static void Free(void* Original)
+		{
+			free(Original);
+		}
 		//static size_t GetAllocSize(void* Original);
 		///**
 		//* For some allocators this will return the actual size that should be requested to eliminate

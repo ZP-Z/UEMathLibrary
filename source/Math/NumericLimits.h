@@ -1,7 +1,7 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 #pragma once
-#include "Misc/CoreMiscDefines.h"
+#include "CoreTypes.h"
 //#include "CoreTypes.h"
 
 /* Numeric constants
@@ -30,7 +30,7 @@
 #define MIN_dbl			(2.2250738585072014e-308)	/* min positive value */
 #define MAX_dbl			(1.7976931348623158e+308)	
 
-namespace UE4Math
+namespace UEMath
 {
 
 	/* Numeric type traits

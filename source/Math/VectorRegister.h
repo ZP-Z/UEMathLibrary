@@ -23,7 +23,7 @@
 // 'Cross-platform' vector intrinsics (built on the platform-specific ones defined above)
 #include "Math/UnrealMathVectorCommon.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/** Vector that represents (1/255,1/255,1/255,1/255) */
 	extern const VectorRegister VECTOR_INV_255;

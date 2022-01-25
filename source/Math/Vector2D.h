@@ -11,7 +11,7 @@
 #include "UnrealMathUtility.h"
 #include "IntPoint.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
 	* A vector in 2-D space composed of components (X, Y) with floating point precision.

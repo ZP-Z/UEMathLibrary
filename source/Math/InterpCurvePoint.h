@@ -12,7 +12,7 @@
 #include "Math/Quat.h"
 #include "Math/TwoVectors.h"
 
-namespace UE4Math
+namespace UEMath
 {
 
 

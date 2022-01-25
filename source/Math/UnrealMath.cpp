@@ -16,7 +16,7 @@
 
 //DECLARE_CYCLE_STAT( TEXT( "Convert Rotator to Quat" ), STAT_MathConvertRotatorToQuat, STATGROUP_MathVerbose );
 //DECLARE_CYCLE_STAT( TEXT( "Convert Quat to Rotator" ), STAT_MathConvertQuatToRotator, STATGROUP_MathVerbose );
-namespace UE4Math
+namespace UEMath
 {
 	/*-----------------------------------------------------------------------------
 	Globals

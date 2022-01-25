@@ -12,7 +12,7 @@
 #include "Math/Rotator.h"
 #include "Math/Matrix.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	class Error;
 

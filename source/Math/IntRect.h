@@ -8,7 +8,7 @@
 #include "Math/IntPoint.h"
 #include "Math/Vector2D.h"
 
-namespace UE4Math
+namespace UEMath
 {
 
 

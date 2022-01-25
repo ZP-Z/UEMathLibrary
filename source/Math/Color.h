@@ -9,7 +9,7 @@
 //#include "Misc/Parse.h"
 //#include "Serialization/StructuredArchive.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	class FFloat16Color;
 

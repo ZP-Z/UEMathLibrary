@@ -23,7 +23,7 @@
 #include "Math/UnrealMathSSE.h"
 #endif
 
-namespace UE4Math
+namespace UEMath
 {
 	/**
  * A vector in 3-D space composed of components (X, Y, Z) with floating point precision.

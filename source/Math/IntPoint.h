@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "Misc/CoreMiscDefines.h"
+#include "CoreTypes.h"
 #include "Math/UnrealMathUtility.h"
 #include <string>
 //#include "CoreTypes.h"
@@ -10,7 +10,7 @@
 //#include "Containers/UnrealString.h"
 //#include "Templates/TypeHash.h"
 
-namespace UE4Math
+namespace UEMath
 {
 
 	/**

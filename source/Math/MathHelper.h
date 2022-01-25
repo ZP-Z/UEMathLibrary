@@ -1,7 +1,7 @@
 #pragma once
 #include "Math/UnrealMathUtility.h"
 
-namespace UE4Math
+namespace UEMath
 {
 	template <class T>
 	FORCEINLINE T TLerp(const T& rValA, const T& rValB, const float fraction)
