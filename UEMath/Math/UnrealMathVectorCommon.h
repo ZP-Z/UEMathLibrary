@@ -9,8 +9,9 @@ namespace UEMath
 
 	inline bool VectorIsAligned(const void* Ptr)
 	{
-		return !(int32(Ptr) & (SIMD_ALIGNMENT - 1));
+		return !(reinterpret_cast<uintptr_t>(Ptr) & (SIMD_ALIGNMENT - 1));
 	}
+
 
 	// Returns a normalized 4 vector = Vector / |Vector|.
 	// There is no handling of zero length vectors, use VectorNormalizeSafe if this is a possible input.

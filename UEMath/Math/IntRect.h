@@ -532,7 +532,7 @@ namespace UEMath
 	inline std::string FIntRect::ToString() const
 	{
 		char stemp[200] = "";
-		snprintf(stemp, 200, "Min=(%s) Max=(%s)", Min.ToString(), Max.ToString());
+		snprintf(stemp, 200, "Min=(%s) Max=(%s)", Min.ToString().c_str(), Max.ToString().c_str());
 		return std::string(stemp);
 		//return FString::Printf(TEXT("Min=(%s) Max=(%s)"), *Min.ToString(), *Max.ToString());
 	}

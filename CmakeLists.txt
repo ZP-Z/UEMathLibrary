@@ -3,10 +3,10 @@ set(CMAKE_CXX_STANDARD 17)
 
 # project name
 project(UEMath)
-include_directories("source")
+include_directories("UEMath")
 
-FILE(GLOB_RECURSE HEADERS "source/*.h")
-FILE(GLOB_RECURSE SOURCES "source/*.cpp")
+FILE(GLOB_RECURSE HEADERS "UEMath/*.h")
+FILE(GLOB_RECURSE SOURCES "UEMath/*.cpp")
 
 set(MATH_HEADER ${HEADERS})
 set(MATH_SOURCE ${SOURCES})
@@ -14,4 +14,4 @@ set(MATH_SOURCE ${SOURCES})
 source_group(TREE ${CMAKE_SOURCE_DIR} FILES ${MATH_HEADER})
 source_group(TREE ${CMAKE_SOURCE_DIR} FILES ${MATH_SOURCE})
 
-add_executable(${PROJECT_NAME} ${MATH_HEADER} ${MATH_SOURCE})
+add_executable(${PROJECT_NAME} Main.cpp ${MATH_HEADER} ${MATH_SOURCE})

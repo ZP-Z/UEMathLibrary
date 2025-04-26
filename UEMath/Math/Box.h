@@ -567,7 +567,7 @@ namespace UEMath
 	inline std::string FBox::ToString() const
 	{
 		char stemp[200] = "";
-		snprintf(stemp, 100, "IsValid=%s, Min=(%s), Max=(%s)", IsValid ? "true" : "false", Min.ToString(), Max.ToString());
+		snprintf(stemp, 100, "IsValid=%s, Min=(%s), Max=(%s)", IsValid ? "true" : "false", Min.ToString().c_str(), Max.ToString().c_str());
 		return std::string(stemp);
 		//return FString::Printf(TEXT("IsValid=%s, Min=(%s), Max=(%s)"), IsValid ? TEXT("true") : TEXT("false"), *Min.ToString(), *Max.ToString());
 	}
