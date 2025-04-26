@@ -1,7 +1,7 @@
 // main.cpp for test
 
 #include <iostream>
-#include "Core.h"
+#include "UEMathCore.h"
 
 using namespace UEMath;
 
